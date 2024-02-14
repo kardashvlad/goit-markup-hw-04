@@ -281,6 +281,8 @@ a {
   background: #fff;
   width: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .main-team-name {
   color: #2e2f42;
@@ -306,7 +308,14 @@ a {
   gap: 24px;
 }
 .team-team {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
   padding: 32px 0;
+}
+.main-icons-item {
+  width: 40px;
+  height: 40px;
 }
 
 /* ****************** */
