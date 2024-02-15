@@ -307,6 +307,14 @@ a {
   display: flex;
   gap: 24px;
 }
+.team-team {
+  padding: 32px 0;
+}
+.main-icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 .main-icons-link {
   width: 100%;
   height: 100%;
