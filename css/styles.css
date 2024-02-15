@@ -307,17 +307,34 @@ a {
   display: flex;
   gap: 24px;
 }
-.team-team {
+.main-icons-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
   display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 24px;
-  padding: 32px 0;
+}
+.main-icons-link:hover {
+  background-color: #404bbf;
+}
+.main-icons-link:focus {
+  background-color: #404bbf;
 }
 .main-icons-item {
   width: 40px;
   height: 40px;
 }
-
+.team-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 32px 0;
+}
+.icons {
+  fill: #f4f4fd;
+}
 /* ****************** */
 
 /* main-portfolio */
