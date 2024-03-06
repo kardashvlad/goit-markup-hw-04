@@ -470,11 +470,12 @@ a {
 footer .container a {
   display: flex;
   align-items: baseline;
-  margin-bottom: 16px;
+}
+.footer-div {
   margin-right: 120px;
 }
-
 .text-social {
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
